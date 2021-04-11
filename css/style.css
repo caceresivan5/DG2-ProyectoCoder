@@ -5,7 +5,7 @@
             --colorSecundario: #E59866;
             --colorBotonFormulario: #154360;
             --colorNaranjaClaro: #FAD7A0;
-            --colorgrisClaro: #f4f6f7;
+            --colorgrisClaro: #ECF0F1;
         }
         /*Globales*/
         
@@ -417,10 +417,6 @@
             margin: 4rem 2rem;
             padding: 2rem;
             border-radius: 2rem;
-            background-color: var(--colorgrisClaro);
-            -webkit-box-shadow: 0px 0px 30px 9px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 0px 30px 9px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 0px 30px 9px rgba(0, 0, 0, 0.75);
            } 
         }
         @media(min-width: 768px) and (max-width: 1024px) {
