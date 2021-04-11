@@ -91,7 +91,7 @@
             }
                 .logo{
                     position: absolute;
-                    margin: 1rem auto;
+                    margin: 3rem auto;
                     width: 28%;
                 }
             .navegacion__link{
@@ -146,7 +146,7 @@
             .tituloMovil{
                 display: block;
                 position: absolute;
-                top: 5rem;
+                top: 7rem;
                 left: 12.5rem;
             }
             .navegacion p{
@@ -155,7 +155,7 @@
                 color: var(--ColorPrimarioTexto);
             }
             header  img{
-                width: 9%;
+                width: 8%;
                 display: block;
                 margin: 6% 85%;
             }
@@ -190,7 +190,9 @@
         }
 
         /*PORTADA*/
-        
+        .portada{
+            margin: 5.5rem auto 3rem;
+        }
         .portada__imagen {
             width: 100%;
         }
