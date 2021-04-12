@@ -92,7 +92,7 @@
             }
                 .logo{
                     position: absolute;
-                    margin: 3rem 2rem;
+                    margin: 3rem 0rem;
                     width: 28%;
                 }
             .navegacion__link{
@@ -147,8 +147,8 @@
             .tituloMovil{
                 display: block;
                 position: absolute;
-                top: 7rem;
-                left: 14.5rem;
+                top: 4rem;
+                left: 12rem;
             }
             .navegacion p{
                 font-weight: bolder;
@@ -158,7 +158,8 @@
             header  img{
                 width: 8%;
                 display: block;
-                margin: 6% 85%;
+                margin: 10.5% 88%;
+                top: -3rem;
             }
            label img:hover{
                cursor: pointer;
@@ -192,7 +193,7 @@
 
         /*PORTADA*/
         .portada{
-            margin: 5.5rem auto 3rem;
+            margin: 0 auto 3rem;
         }
         .portada__imagen {
             width: 100%;
