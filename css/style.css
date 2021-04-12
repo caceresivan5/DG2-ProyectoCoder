@@ -259,6 +259,7 @@
             display: flex;
             justify-content: space-evenly;
         }
+
         
         @media(min-width: 768px) and (max-width: 1024px) {
             .sobreNosotros {
@@ -294,26 +295,31 @@
         }
         
         .SobreNosotros__contenido {
-            width: 50rem;
+            width: 22%;
         }
         @media(max-width: 1400px) {
             .SobreNosotros__contenido{
                 width: 35rem;
+                
             }
             .seccionNosotros h1{
                 margin: 1rem auto 2rem;
             }
         }
         
-        .SobreNosotros__contenido svg {
-            width: 100%;
+        .SobreNosotros__contenido img {
+            width: 60%;
+            display: block;
+            margin: 3rem auto;
         }
+
         
         .SobreNosotros__contenido p {
             text-align: center;
             margin: 3rem auto;
             line-height: 1.6;
             font-size: 2rem;
+            padding: 2rem;
         }
 
         /*CARUOSEL*/
