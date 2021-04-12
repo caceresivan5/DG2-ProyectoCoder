@@ -92,7 +92,7 @@
             }
                 .logo{
                     position: absolute;
-                    margin: 3rem auto;
+                    margin: 3rem 2rem;
                     width: 28%;
                 }
             .navegacion__link{
@@ -148,7 +148,7 @@
                 display: block;
                 position: absolute;
                 top: 7rem;
-                left: 12.5rem;
+                left: 14.5rem;
             }
             .navegacion p{
                 font-weight: bolder;
@@ -311,6 +311,11 @@
             width: 60%;
             display: block;
             margin: 3rem auto;
+        }
+        @media(min-width: 375px) and (max-width: 767px){ 
+            .SobreNosotros__contenido img {
+                width: 50%;
+            }
         }
 
         
