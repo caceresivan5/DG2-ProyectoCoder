@@ -49,7 +49,7 @@
         <main>
             <section class="portada">
                 <img class="portada__imagen"
-                    src="img/BANNER_DG2OK.jpg" alt="portada de la empresa">
+                    src="img/bannerPrincipal.jpg" alt="portada de la empresa">
             </section>
 
             <section class="logosClientes">
@@ -234,7 +234,7 @@
 
             <section class="tabla">
                 <!--TABLA-->
-                <h1>PRODUCTIVIDAD</h1>
+                <h1>TECNOLOGIA Y PRODUCTIVIDAD</h1>
                 <div class="tabla__logos">
                     <svg class="tabla__logos--logo" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-infographic" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -264,40 +264,113 @@
                         <line x1="16" y1="17" x2="16" y2="17.01" />
                       </svg>
                 </div>
+
                 <div class="tabla__contenido">
                     <table  cellpadding="7" cellspacing="3">
                         <tr class="tituloTabla">
                             <td>SECTOR</td>
                             <td>ACTIVIDAD PRINCIPAL</td>
                             <td>PRODUCCIÓN POR DIA</td>
+                            <td>CONOCIENDO EL SECTOR
+                                <br>
+                                (Hace click en cada Boton)
+                            </td>
                         </tr>
                         <tr>
                             <td>Estamperia</td>
                             <td>Estampado Tradicional o Digital</td>
-                            <td>Entre 800 y 1300 Estampas</td>
+                            <td> <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperia"> </div><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"></td>
+                            <td>
+                                <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperia"><img class="botonTabla" src="img/botonPlay.png" alt="botonPlay"> </div>
+                            </td>
+                                              <!-- Modal ESTAMPERIA -->
+  <div class="modal fade" id="TallerEstamperia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="staticBackdropLabel">TALLER DE ESTAMPERIA</h2>
+        </div>
+        <div class="modal-body ">
+            <video src="video/ESTAMPERIA.mp4" controls></video>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+          </div>
                         </tr>
                         <tr>
                             <td>Sublimación</td>
                             <td>Sublimado mediante Calandra</td>
-                            <td>560mts</td>
+                            <td>  <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperia"></div><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"> </td>
+                            <td>
+                                <div  data-bs-toggle="modal" data-bs-target="#TallerSublimacion" ><img class="botonTabla" src="img/botonPlay.png" alt="botonPlay"> </div>
+                            </td>
+                                   <!-- Modal SUBLIMACION-->
+  <div class="modal fade" id="TallerSublimacion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="staticBackdropLabel">TALLER DE SUBLIMACIÓN</h2>
+        </div>
+        <div class="modal-body ">
+            <video src="video/SUBLIMACION.mp4" controls></video>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+                            
                         </tr>
                         <tr>
                             <td>Confección</td>
                             <td>Confección de Camisetas de Futbol</td>
-                            <td>250 Prendas</td>
+                            <td> <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperia"></div><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"> </td>
+                            <td>
+                                <div><img class="botonTabla" src="img/botonPlay.png" alt="botonPlay"> </div>
+                            </td>
+
+                                                               <!-- Modal CONFECCION-->
+  <div class="modal fade" id="TallerConfeccion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="staticBackdropLabel">TALLER DE SUBLIMACIÓN</h2>
+        </div>
+        <div class="modal-body ">
+            <video src="video/SUBLIMACION.mp4" controls></video>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+          </div>
                         </tr>
                         <tr>
-                            <td>Transfer</td>
-                            <td>Colocación de transfer por plancha</td>
-                            <td>800 Transfer</td>
+                            <td>Corte</td>
+                            <td>Encimado y Corte de Tela</td>
+                            <td>  <div  data-bs-toggle="modal" data-bs-target="#TallerCorte"></div><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"> </td>
+                            <td>
+                                <div  data-bs-toggle="modal" data-bs-target="#TallerCorte" ><img class="botonTabla" src="img/botonPlay.png" alt="botonPlay"> </div>
+                            </td>
                         </tr>
-                        <tr>
-                            <td>Producto Terminado</td>
-                            <td>Empaque del producto final</td>
-                            <td>1500 Prendas</td>
-                        </tr>
+                                                                                     <!-- Modal CORTE-->
+  <div class="modal fade" id="TallerCorte" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="staticBackdropLabel">TALLER DE SUBLIMACIÓN</h2>
+        </div>
+        <div class="modal-body ">
+            <video src="video/corteOp2.mp4" controls></video>
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+          </div>
+                    
                     </table>
                 </div>
+
+
             </section>
             <!--TERMINA TABLA-->
 
