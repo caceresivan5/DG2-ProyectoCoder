@@ -270,7 +270,7 @@
                         <tr class="tituloTabla">
                             <td>SECTOR</td>
                             <td>ACTIVIDAD PRINCIPAL</td>
-                            <td>PRODUCCIÓN POR DIA</td>
+                            <td>PRODUCCIÓN</td>
                             <td>CONOCIENDO EL SECTOR
                                 <br>
                                 (Hace click en cada Boton)
@@ -279,11 +279,27 @@
                         <tr>
                             <td>Estamperia</td>
                             <td>Estampado Tradicional o Digital</td>
-                            <td> <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperia"> </div><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"></td>
+                            <td> 
+                                <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperiaDetalle"><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"></div>
+                                </td>
+                                                                    <!-- Modal ESTAMPERIA-detalle -->
+  <div class="modal fade" id="TallerEstamperiaDetalle" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content detalle" >
+        <div class="modal-header">
+          <h2 class="modal-title" id="staticBackdropLabel"></h2>
+        </div>
+        <div class="modal-body ">
+            <img src="img/detalle-estamperia.png" width="75%" style="margin: 0 auto; display: block;" alt="detalle estamperia">
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+          </div>
                             <td>
                                 <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperia"><img class="botonTabla" src="img/botonPlay.png" alt="botonPlay"> </div>
                             </td>
-                                              <!-- Modal ESTAMPERIA -->
+                                              <!-- Modal ESTAMPERIA - video -->
   <div class="modal fade" id="TallerEstamperia" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -301,11 +317,27 @@
                         <tr>
                             <td>Sublimación</td>
                             <td>Sublimado mediante Calandra</td>
-                            <td>  <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperia"></div><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"> </td>
+                            <td> 
+                                <div  data-bs-toggle="modal" data-bs-target="#TallerSublimacionDetalle"><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"></div>
+                                </td>
+                                                                    <!-- Modal SUBLIMACION-detalle -->
+  <div class="modal fade" id="TallerSublimacionDetalle" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content detalle" >
+        <div class="modal-header">
+          <h2 class="modal-title" id="staticBackdropLabel"></h2>
+        </div>
+        <div class="modal-body ">
+            <img src="img/detalle-sublimacion.png" width="75%" style="margin: 0 auto; display: block;" alt="detalle estamperia">
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+          </div>
                             <td>
                                 <div  data-bs-toggle="modal" data-bs-target="#TallerSublimacion" ><img class="botonTabla" src="img/botonPlay.png" alt="botonPlay"> </div>
                             </td>
-                                   <!-- Modal SUBLIMACION-->
+                                   <!-- Modal SUBLIMACION video-->
   <div class="modal fade" id="TallerSublimacion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -324,12 +356,28 @@
                         <tr>
                             <td>Confección</td>
                             <td>Confección de Camisetas de Futbol</td>
-                            <td> <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperia"></div><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"> </td>
+                            <td> 
+                                <div  data-bs-toggle="modal" data-bs-target="#TallerConfeccionDetalle"><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"></div>
+                                </td>
+                                                                    <!-- Modal CONFECCION-detalle -->
+  <div class="modal fade" id="TallerConfeccionDetalle" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content detalle" >
+        <div class="modal-header">
+          <h2 class="modal-title" id="staticBackdropLabel"></h2>
+        </div>
+        <div class="modal-body ">
+            <img src="img/detalle-confeccion.png" width="75%" style="margin: 0 auto; display: block;" alt="detalle estamperia">
+        </div>
+
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
+          </div>
                             <td>
                                 <div><img class="botonTabla" src="img/botonPlay.png" alt="botonPlay"> </div>
                             </td>
 
-                                                               <!-- Modal CONFECCION-->
+                                                               <!-- Modal CONFECCION video-->
   <div class="modal fade" id="TallerConfeccion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -375,7 +423,7 @@
             <!--TERMINA TABLA-->
 
             <section class="seccionFormulario">
-                <h1>FORMULARIO DE CONTACTO</h1>
+                
                 <img src="img/contacto3.png" alt="">
                 <h2>Estamos dispuestos a dar una solución rápida y eficaz a tus necesidades.</h2>
                 <h3>Completá el formulario y un asesor se comunicará en breve.</h3>
