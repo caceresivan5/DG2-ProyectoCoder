@@ -166,7 +166,7 @@
             <section class="servicios">
                 <h1>Servicios</h1>
 
-                <div class="contenedor servicios_imagenes">
+                <div class=" servicios_imagenes">
                     <div class="servicio__imagen">
                         <img src="img/sublimacion-logo.jpg" alt="sublimacion">
                         <p class="servicios__subtitulo">Sublimación</p>
@@ -233,8 +233,11 @@
             </section>
 
             <section class="tabla">
+
                 <!--TABLA-->
-                <h1>TECNOLOGIA Y PRODUCTIVIDAD</h1>
+
+                <h1>TECNOLOGIA Y PRODUCCIÓN</h1>
+                
                 <div class="tabla__logos">
                     <svg class="tabla__logos--logo" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-infographic" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -264,8 +267,10 @@
                         <line x1="16" y1="17" x2="16" y2="17.01" />
                       </svg>
                 </div>
+                <div class="fondoTabla">
 
-                <div class="tabla__contenido">
+                <div class="tabla__contenido" >
+                   
                     <table  cellpadding="7" cellspacing="3">
                         <tr class="tituloTabla">
                             <td>SECTOR</td>
@@ -276,8 +281,11 @@
                                 (Hace click en cada Boton)
                             </td>
                         </tr>
-                        <tr>
-                            <td>Estamperia</td>
+                        
+                                                       <!-- TABLA ESTAMPERIA -->
+
+                        <tr class="EstamperiaSelect">
+                            <td class="tabla__contenido__taller">Estamperia</td>
                             <td>Estampado Tradicional o Digital</td>
                             <td> 
                                 <div  data-bs-toggle="modal" data-bs-target="#TallerEstamperiaDetalle"><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"></div>
@@ -313,9 +321,11 @@
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
           </div>
+
+                                                   <!-- TABLA SUBLIMACION-->
                         </tr>
-                        <tr>
-                            <td>Sublimación</td>
+                        <tr class="EstamperiaSelect">
+                            <td class="tabla__contenido__taller">Sublimación</td>
                             <td>Sublimado mediante Calandra</td>
                             <td> 
                                 <div  data-bs-toggle="modal" data-bs-target="#TallerSublimacionDetalle"><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"></div>
@@ -352,9 +362,10 @@
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
           </div>
                             
+                                                      <!-- TABLA CONFECCION-->
                         </tr>
-                        <tr>
-                            <td>Confección</td>
+                        <tr class="EstamperiaSelect">
+                            <td class="tabla__contenido__taller">Confección</td>
                             <td>Confección de Camisetas de Futbol</td>
                             <td> 
                                 <div  data-bs-toggle="modal" data-bs-target="#TallerConfeccionDetalle"><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"></div>
@@ -391,9 +402,12 @@
         <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
           </div>
+                                                              
+                                                <!-- TABLA CORTE-->
+
                         </tr>
-                        <tr>
-                            <td>Corte</td>
+                        <tr class="EstamperiaSelect">
+                            <td class="tabla__contenido__taller">Corte</td>
                             <td>Encimado y Corte de Tela</td>
                             <td>  <div  data-bs-toggle="modal" data-bs-target="#TallerCorte"></div><img class="botonTabla" src="img/botonProduccion.png" alt="boton Info"> </td>
                             <td>
@@ -417,6 +431,7 @@
                     
                     </table>
                 </div>
+            </div>
 
 
             </section>
