@@ -1472,8 +1472,5 @@ html {
 body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#FAD7A0));
-  background-image: linear-gradient(to bottom, white, #FAD7A0);
-  /*GRADIENTE EN EL FONDO*/
 }
 /*# sourceMappingURL=Sass-Style.css.map */
