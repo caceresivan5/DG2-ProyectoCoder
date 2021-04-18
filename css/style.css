@@ -545,7 +545,7 @@
         .tituloTabla td {
             color: var(--colorTablaTitulo);
             font-weight: bold;
-            
+            padding: 0.5rem 0.5rem;  
         }
         
         td {
@@ -563,9 +563,12 @@
          }
          @media(min-width: 375px) and (max-width: 767px){
            td{
-            padding: 0.5rem 0rem;
+            padding: 0.5rem 0.5rem;
             font-size: 1.5rem;
          }
+         .tituloTabla td {
+            padding: 0.5rem 1.9rem;  
+        }
         }
 
         .botonTabla{
@@ -646,8 +649,12 @@
             width: 100rem;
             left: -50%;
             background-color: white;
-            
-         
+        }
+        @media(min-width: 375px) and (max-width: 767px){
+            .modal-content{
+                width: 80rem;
+                left: -50%;
+            }
         }
         .detalle{
                 width: 170%; 
@@ -657,12 +664,37 @@
         @media(min-width: 1024px) and (max-width: 1400px){
             .detalle{
                 width: 110%; 
-                left: -20%;
-                background-color: white;
+                left: -10%;
+        }
+        }
+        @media(min-width: 768px) and (max-width: 1024px) {
+            .detalle{
+                width: 90%; 
+                left: 4%;
+        }
+        .modal-body{
+            width: 80%;
+            left: 11%;
+        }
+        }
+        @media(min-width: 375px) and (max-width: 767px){
+            .detalle{
+                width: 100%; 
+                left: 2%;
         }
         }
         .modal-body video{
             width: 100%;
+        }
+        @media(min-width: 375px) and (max-width: 767px){
+            .modal-body{
+                width: 50%;
+                left: 0%;
+                margin: 0 auto;
+            }
+            .modal-title{
+                font-size: 3rem;
+            }
         }
         .modal-body img{
             width: 100%;
