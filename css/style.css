@@ -669,8 +669,8 @@
         }
         @media(min-width: 768px) and (max-width: 1024px) {
             .detalle{
-                width: 90%; 
-                left: 4%;
+                width: 140%; 
+                left: -20%;
         }
         .modal-body{
             width: 80%;
@@ -679,8 +679,8 @@
         }
         @media(min-width: 375px) and (max-width: 767px){
             .detalle{
-                width: 100%; 
-                left: 2%;
+                width: 190%; 
+                left: -45%;
         }
         }
         .modal-body video{
