@@ -539,11 +539,11 @@
             width: 30rem;
             color: var(--colorTablaTexto);
             text-align: center;
-            padding: 2rem 1rem;
+            padding: 1rem 1rem;
             font-size: 2rem;
         }
         .botonTabla{
-           width: 19%;
+           width: 17%;
             margin: 0 auto;
             border-radius: 1rem;
             color: white;
@@ -579,7 +579,7 @@
             background-image: url(../img/tablaFondo1.png);
             background-repeat: space;
             background-size: 100% 100%;
-            padding: 7rem;
+            padding: 5rem;
         }
 
         /*MODAL TABLA*/
