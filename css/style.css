@@ -542,6 +542,11 @@
             padding: 1rem 1rem;
             font-size: 2rem;
         }
+        @media(min-width: 1024px) and (max-width: 1400px){
+            td {
+                font-size: 1.8rem;
+            }
+    }
         .botonTabla{
            width: 17%;
             margin: 0 auto;
@@ -570,6 +575,12 @@
             font-weight: bolder;
             text-transform: uppercase;
         }
+        @media(min-width: 1024px) and (max-width: 1400px){
+            .tabla__contenido__taller{
+                font-size: 1.8rem;
+            }
+
+        }
         .EstamperiaSelect:hover{
             cursor: pointer;
             background-color: #3b3b3b;
@@ -596,17 +607,22 @@
 
         .modal-content{
             width: 100rem;
-
             left: -50%;
             background-color: white;
             
          
         }
         .detalle{
-                width: 170%;
-                
+                width: 170%; 
                 left: -50%;
                 background-color: white;
+        }
+        @media(min-width: 1024px) and (max-width: 1400px){
+            .detalle{
+                width: 110%; 
+                left: -20%;
+                background-color: white;
+        }
         }
         .modal-body video{
             width: 100%;
