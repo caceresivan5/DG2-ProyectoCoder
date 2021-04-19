@@ -170,8 +170,8 @@
            .navegacion__link{
                position: absolute;
                left: -110%;
-               top: 23%;
-               height: 60rem;
+               top: 10%;
+               height: 100%;
                background-color: rgba(0, 0, 0, 0.93);
                border: none;
                padding: 0rem 11rem 50rem;
@@ -188,7 +188,7 @@
                display: block;
            }
               #menu-desplegable:checked ~ .navegacion__link{
-               left: 0%;
+               left: 5%;
            }
             
         }
