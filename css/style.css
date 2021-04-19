@@ -150,11 +150,11 @@
                 display: block;
                 position: absolute;
                 top: 4rem;
-                left: 12rem;
+                left: 11rem;
             }
             .navegacion p{
                 font-weight: bolder;
-                font-size: 2.1rem;
+                font-size: 2rem;
                 color: var(--ColorPrimarioTexto);
             }
             header  img{
@@ -170,7 +170,7 @@
            .navegacion__link{
                position: absolute;
                left: -110%;
-               top: 10%;
+               top: 13.4%;
                height: 100%;
                background-color: rgba(0, 0, 0, 0.93);
                border: none;
