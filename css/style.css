@@ -1,12 +1,12 @@
         /*Paleta de colores*/
         
          :root {
-            --ColorPrimarioTexto: #DC7633;
+            --ColorPrimarioTexto: #ff6600;
             --colorSecundario: #E59866;
-            --colorBotonFormulario: #154360;
             --colorNaranjaClaro: #FAD7A0;
             --colorgrisClaro: #ECF0F1;
             --ColorBotonEstamperia: #E59866;
+            --colorHoverBotonNaranja:#D35400;
 
         }
         /*Globales*/
@@ -342,7 +342,7 @@
          .carousel-indicators button[type]{
              width: 6rem;
              height: 1rem;
-             background-color: #D35400;
+             background-color: var(--ColorPrimarioTexto);
          }
          @media(max-width: 1400px) {
             .carousel-item img {
@@ -468,7 +468,7 @@
             text-align: center;
         }
         .servicios__boton:hover{
-            background-color: #D35400;
+            background-color: var(--colorHoverBotonNaranja);
         }
         @media(max-width: 1400px) {
             .servicios__boton{
@@ -747,7 +747,7 @@
             border-radius: 2rem;
         }
         .seccionFormulario a:hover{
-            background-color: #D35400;
+            background-color: var(--colorHoverBotonNaranja);
         }
         @media(max-width: 1400px) {
            
@@ -941,7 +941,7 @@
         .botonFormulario input:hover{
             cursor: pointer;
             color: white;
-            background-color: #D35400;
+            background-color: var(--colorHoverBotonNaranja);
         }
 
         .botonFormulario a{
@@ -1036,7 +1036,7 @@
             display: block;
            text-align: center;
            border-radius: 1rem;
-            background-color: #DC7633;
+            background-color: var(--ColorPrimarioTexto);
             text-decoration: none;
             color: white;
             font-size: 2.5rem;
@@ -1044,7 +1044,7 @@
             margin: 0 auto;
         }
         .BotonPaletaColores a:hover{
-            background-color: #D35400;
+            background-color: var(--colorHoverBotonNaranja);
         }
         .nuestraPaleta{
             text-align: center;
@@ -1172,11 +1172,11 @@
             width: 20rem;
             height: 5rem;
             font-size: 1.8rem;
-            background-color: #DC7633;
+            background-color: var(--ColorPrimarioTexto);
             color: black;
         }
         .modal-footer button:hover{
-            background-color: #D35400;
+            background-color: var(--colorHoverBotonNaranja);
         }
         
         /*PAGINAS DE POLITICAS*/
