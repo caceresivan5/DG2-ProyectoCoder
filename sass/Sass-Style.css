@@ -244,13 +244,21 @@ footer .listasInferior {
   line-height: 1.5;
 }
 
+footer .listasInferior ol {
+  margin-top: 3rem;
+}
+
+footer .listasInferior ol img {
+  width: 7%;
+}
+
 footer .listasInferior li {
   list-style: none;
   text-align: center;
 }
 
 footer .listasInferior ul {
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
 footer .listasInferior a {
@@ -267,7 +275,7 @@ footer .listasInferior p {
   bottom: 5rem;
 }
 
-@media (max-width: 1400px) {
+@media (min-width: 1024px) and (max-width: 1400px) {
   footer {
     margin-bottom: 2rem;
   }
