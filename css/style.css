@@ -712,6 +712,9 @@
             width: 100%;
             position: relative;
         }
+        .seccionFormulario:hover{
+            cursor: pointer;
+        }
         
         .seccionFormulario h2 {
             margin: 10rem auto 0rem;
@@ -1011,7 +1014,7 @@
             text-align: center;
         }
         .listasInferior ul{
-            margin-top: 6rem;
+            margin-top: 8rem;
         }
         .listasInferior li img {
             width: 8%;
@@ -1025,6 +1028,12 @@
         .listasInferior a:hover {
             color: var(--ColorPrimarioTexto);
         }
+        .listasInferior ol{
+            margin-top: 3rem;
+        }
+        .listasInferior ol li{
+            margin-top: 2rem;
+        }
         
         footer {
             color: black;
@@ -1034,7 +1043,9 @@
         footer p{
             margin-top: 4rem;
         }
-
+        .ListaConEnlace a{
+            margin-top: 9rem;
+        }
         /* PAGINAS SUBLIMACION - ESTAMPERIA - TRANSFER - CONFECCION*/
 
         /*imagen click*/

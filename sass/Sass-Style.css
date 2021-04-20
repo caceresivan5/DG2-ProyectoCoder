@@ -74,6 +74,7 @@
   }
 }
 
+/*MAPA*/
 /*PAGINA NOSOTROS*/
 .nosotrosInfo p {
   text-align: center;
@@ -106,9 +107,84 @@
   margin: 0 auto;
 }
 
+.nosotrosInfo .nosotrosInfo__personal__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado {
+  width: 30%;
+  margin: 2rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 10px 25px black;
+          box-shadow: 0px 10px 25px black;
+  border: 3px solid #ff6600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado img {
+  width: 50%;
+}
+
+.nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+  .nosotrosInfo .nosotrosInfo__personal__card {
+    width: 100%;
+    height: 25rem;
+    margin: 0 auto;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado {
+    width: 100%;
+    margin: 1rem;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado p {
+    margin: 0 auto;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado p span {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado p img {
+    width: 45%;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .nosotrosInfo .nosotrosInfo__personal__imagen img {
     width: 85%;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado {
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado img {
+    width: 45%;
   }
 }
 
@@ -125,6 +201,27 @@
   }
   .nosotrosInfo .nosotrosInfo__personal__imagen img {
     width: 80%;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado {
+    width: 90%;
+    height: 19rem;
+    margin: 1rem auto;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado p {
+    margin: auto auto;
+    font-size: 1.5rem;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado p span {
+    font-size: 1.8rem;
+  }
+  .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado p span img {
+    width: 45%;
   }
 }
 
