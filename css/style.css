@@ -216,55 +216,17 @@
                 height: 14rem;
             }
         }
-        .portada__logo{
-            position: absolute;
-            top: 27%;
-            left: 43%;
-            transition: transform 0.5s;
-        }
-        .portada__logo img{
-            display: block;
-            width: 90%;
+        
+        @media(min-width: 1025px) and (max-width: 1400px) {
             
         }
-        .portada__logo:hover{
-            transform: scale(1.3);
-            cursor: pointer;
-        }
-        @media(min-width: 1025px) and (max-width: 1400px) {
-            .portada__logo{
-                top: 19%;
-                left: 43%;
-            }
-            .portada__logo img{
-                width: 60%; 
-            }
-            .portada__logo:hover{
-                transform: scale(1.1);
-            }
-        }
         @media(min-width: 768px) and (max-width: 1024px) {
-            .portada__logo{
-                top: 14%;
-                left: 43%;
-            }
-            .portada__logo img{
-                width: 40%; 
-            }
-            .portada__logo:hover{
-                transform: scale(1.1);
-            }
+            
         }
         @media(min-width: 375px) and (max-width: 767px){
-            .portada__logo{
-                top: 20%;
-                left: 43%;
-            }
-            .portada__logo img{
-                width: 40%; 
-            }
-            .portada__logo:hover{
-                transform: scale(1.1);
+            .portada__imagen {
+                width: 100%;
+                height: 70%;
             }
         }
         /* LOGOS CLIENTES*/
