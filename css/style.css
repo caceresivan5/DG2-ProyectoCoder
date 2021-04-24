@@ -446,9 +446,9 @@
             padding: 2rem;
             border-radius: 2rem;
             background-color: var(--colorgrisClaro);
-            -webkit-box-shadow: 0px 0px 20px 0.5px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 0px 20px 0.5px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 0px 20px 0.5px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0px 0px 5px 0.3px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 5px 0.3px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 5px 0.3px rgba(0, 0, 0, 0.75);
            } 
         }
         @media(min-width: 768px) and (max-width: 1024px) {
@@ -1071,6 +1071,7 @@
             color: black;
             padding: 1rem;
             text-align: center;
+            background-color: rgb(109, 109, 109);
         }
         footer p{
             margin-top: 4rem;
