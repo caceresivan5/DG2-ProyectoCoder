@@ -1076,7 +1076,7 @@
             color: black;
             padding: 1rem;
             text-align: center;
-            background-color: rgb(109, 109, 109);
+            background-color: var(--colorgrisClaro);
         }
         footer p{
             margin-top: 4rem;
