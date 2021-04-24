@@ -51,7 +51,7 @@
         }
         
         h3 {
-            font-size: 2.5rem;
+            font-size: 2.3rem;
             text-align: center;
             color: black;
             margin: 2rem auto 3rem;
@@ -1049,7 +1049,9 @@
             margin-top: 8rem;
         }
         .listasInferior li img {
-            width: 7%;
+            width: 15%;
+            display: block;
+            margin: auto auto;
         }
         @media(min-width: 1024px) and (max-width: 1400px){
             .listasInferior li img {
@@ -1069,7 +1071,11 @@
             margin-top: 3rem;
         }
         .listasInferior ol li{
-            margin-top: 2rem;
+            margin-top: 1.5rem;
+            display: flex;
+        }
+        .listasInferior ol li p{
+           margin: auto auto;
         }
         
         footer {
