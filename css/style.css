@@ -314,6 +314,7 @@
         .sobreNosotros h2 {
             color: black;
             font-weight: normal;
+            margin-bottom: 2rem;
         }
 
         .SobreNosotros__contenido {
@@ -343,7 +344,7 @@
         
         .SobreNosotros__contenido p {
             text-align: center;
-            margin: 3rem auto;
+            margin: -3rem auto 0rem;
             line-height: 1.6;
             font-size: 2rem;
             padding: 2rem;
@@ -1048,11 +1049,6 @@
         .listasInferior ul{
             margin-top: 8rem;
         }
-        .listasInferior li img {
-            width: 15%;
-            display: block;
-            margin: auto auto;
-        }
         @media(min-width: 1024px) and (max-width: 1400px){
             .listasInferior li img {
                 width: 5%;
@@ -1066,16 +1062,6 @@
         
         .listasInferior a:hover {
             color: var(--ColorPrimarioTexto);
-        }
-        .listasInferior ol{
-            margin-top: 3rem;
-        }
-        .listasInferior ol li{
-            margin-top: 1.5rem;
-            display: flex;
-        }
-        .listasInferior ol li p{
-           margin: auto auto;
         }
         
         footer {
