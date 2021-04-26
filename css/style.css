@@ -751,6 +751,7 @@
             .seccionFormulario h2 {
                 margin: 0rem auto ;
                 top: 12rem;
+                left: auto;
                 font-size: 2rem;
                 padding: 2rem;
             }
@@ -758,6 +759,7 @@
         @media(min-width: 375px) and (max-width: 767px){
             .seccionFormulario h2 {
                 top: 7rem;
+                left: auto;
                 font-size: 2rem;
                 padding: 2rem;
             }
@@ -1049,6 +1051,13 @@
         .listasInferior ul{
             margin-top: 8rem;
         }
+        .listasInferior ol {
+            margin-top: 7rem;
+        }
+
+        .listasInferior ol li{
+            margin: 1rem auto;
+        }
         @media(min-width: 1024px) and (max-width: 1400px){
             .listasInferior li img {
                 width: 5%;
@@ -1076,6 +1085,7 @@
         .ListaConEnlace a{
             margin-top: 9rem;
         }
+        
         /* PAGINAS SUBLIMACION - ESTAMPERIA - TRANSFER - CONFECCION*/
 
         /*imagen click*/
