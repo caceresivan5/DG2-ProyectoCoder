@@ -78,12 +78,13 @@
 /*PAGINA NOSOTROS*/
 .nosotrosInfo .nosotrosInfo__parrafo {
   margin: 2rem auto 4rem;
+  padding: 3rem;
 }
 
 .nosotrosInfo .nosotrosInfo__parrafo p {
   text-align: center;
   margin: 0rem;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 .nosotrosInfo .nosotrosInfo__imagenes {
