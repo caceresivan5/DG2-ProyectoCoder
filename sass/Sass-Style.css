@@ -76,10 +76,14 @@
 
 /*MAPA*/
 /*PAGINA NOSOTROS*/
-.nosotrosInfo p {
+.nosotrosInfo .nosotrosInfo__parrafo {
+  margin: 2rem auto 4rem;
+}
+
+.nosotrosInfo .nosotrosInfo__parrafo p {
   text-align: center;
-  line-height: 3rem;
-  padding: 3rem;
+  margin: 0rem;
+  padding: 0.5rem;
 }
 
 .nosotrosInfo .nosotrosInfo__imagenes {
@@ -250,7 +254,7 @@ footer .listasInferior {
 }
 
 footer .listasInferior ol {
-  margin-top: 8rem;
+  margin: 8rem;
 }
 
 footer .listasInferior ol li {

@@ -2,12 +2,14 @@
 
 /*PAGINA NOSOTROS*/
 .nosotrosInfo{
+    .nosotrosInfo__parrafo{
+        margin: 2rem auto 4rem;
     p{
         text-align: center;
-        line-height: 3rem;
-
-        padding: 3rem;
+        margin: 0rem;
+        padding: 0.5rem;
     }
+}
     .nosotrosInfo__imagenes{
         display: flex;
         justify-content: space-evenly;
