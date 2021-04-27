@@ -153,8 +153,8 @@
 
 @media (min-width: 1024px) and (max-width: 1400px) {
   .nosotrosInfo .nosotrosInfo__personal__card {
-    width: 100%;
-    height: 25rem;
+    width: 95%;
+    height: 22rem;
     margin: 0 auto;
   }
   .nosotrosInfo .nosotrosInfo__personal__card .nosotros__personal__card--empleado {
