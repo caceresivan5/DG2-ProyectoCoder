@@ -230,7 +230,12 @@ footer {
   color: black;
   padding: 1rem;
   text-align: center;
-  margin: 10% auto 0;
+  margin: 10rem auto 0;
+}
+
+footer p {
+  margin: 0 auto;
+  font-size: 1.5rem;
 }
 
 footer .listasInferior {
@@ -245,16 +250,15 @@ footer .listasInferior {
 }
 
 footer .listasInferior ol {
-  margin-top: 3rem;
+  margin-top: 8rem;
 }
 
-footer .listasInferior ol img {
-  width: 7%;
+footer .listasInferior ol li {
+  line-height: 1.9;
 }
 
 footer .listasInferior li {
   list-style: none;
-  text-align: center;
 }
 
 footer .listasInferior ul {
@@ -271,19 +275,6 @@ footer .listasInferior a:hover {
   color: #ff6600;
 }
 
-footer .listasInferior p {
-  bottom: 5rem;
-}
-
-@media (min-width: 1024px) and (max-width: 1400px) {
-  footer {
-    margin-bottom: 2rem;
-  }
-  footer p {
-    margin-top: 4rem;
-  }
-}
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .listasInferior {
     bottom: 5rem;
@@ -291,6 +282,9 @@ footer .listasInferior p {
   }
   .listasInferior li {
     width: 20rem;
+  }
+  .listasInferior p {
+    margin-top: 4rem;
   }
 }
 

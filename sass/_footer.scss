@@ -3,8 +3,11 @@ footer{
     color: $colorNegro;
             padding: 1rem;
             text-align: center;
-            margin: 10% auto 0 ;
-   
+            margin: 10rem auto 0 ;
+            p{
+                margin: 0 auto;
+                font-size: 1.5rem;
+            }
 
 .listasInferior{
     color: $colorNegro;
@@ -12,14 +15,13 @@ footer{
             justify-content: space-evenly;
             line-height: 1.5;
             ol{
-                margin-top: 3rem;
-                img{
-                    width: 7%;
+                margin-top: 8rem;
+                li{
+                    line-height: 1.9;
                 }
             }
             li{
                 list-style: none;
-            text-align: center;
             }
             ul{
                 margin-top: 8rem;
@@ -32,21 +34,12 @@ footer{
             a:hover {
                 color: $colorPrincipal;
             }
-            p{
-                bottom: 5rem;
-            }
            
         }
 }
-@media(min-width: 1024px) and (max-width: 1400px){
-    footer{
-        margin-bottom: 2rem;
-        p{
-            margin-top: 4rem;
-        }
-    }
-}
+
 @media(min-width: 768px) and (max-width: 1024px) {
+    
     .listasInferior {
         bottom: 5rem;
         margin: $contenidoCentrado;
@@ -54,12 +47,14 @@ footer{
          li{
             width: 20rem;
         }
+        p{
+          margin-top: 4rem;  
+        }
     }
     }
     @media(min-width: 375px) and (max-width: 767px){
         footer{
             
-       
         .listasInferior{
             display: grid;
             grid-template-columns: 1fr;
