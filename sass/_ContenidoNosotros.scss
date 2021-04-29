@@ -18,11 +18,11 @@
     }
     .nosotrosInfo__imagenes__imagen{
         margin: 0 auto;
-
         img{
             width: 90%;
             display: block;
             margin: $contenidoCentrado;
+            border-radius: 1rem;
         }
     }
     .nosotrosInfo__personal__imagen{
