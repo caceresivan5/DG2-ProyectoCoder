@@ -166,7 +166,7 @@
             .tituloMovil {
                 display: inline;
                 position: absolute;
-                top: 4.2%;
+                top: 4%;
                 left: 4%;
             }
             .tituloMovil  h1{
@@ -215,7 +215,7 @@
 
         /*PORTADA*/
         .portada{
-            margin: 0rem auto 3rem;
+            margin: 0rem auto ;
             position: relative;
             overflow: hidden;
         }
@@ -223,8 +223,9 @@
             width: 100%;
         }
         @media(min-width: 375px) and (max-width: 767px){
-            .portada__imagen {
-                height: 14rem;
+            .portada__imagen img{
+                height: 100%;
+                margin: 0 auto;
             }
         }
 
@@ -236,6 +237,16 @@
             top: 55%;
             left: 50%;
             transform: translate(-55%, -50%);
+        }
+
+        @media(min-width: 375px) and (max-width: 767px){
+            .portada__logo img{
+                width: 20%;
+                position: absolute;
+                top: 55%;
+                left: 50%;
+                transform: translate(-55%, -50%);
+            }
         }
         .portada:hover .portada__logo img{
             transform: translate(-55%, -50%) scale(1.2);
@@ -271,6 +282,22 @@
         .portada:hover:after{
             cursor: pointer;
             transform:  rotate(71deg) translateX(55%)translateY(-60%);  
+        }
+        /* PORTADA MOVIL */
+        @media(min-width: 375px) and (max-width: 767px){
+
+            .portada:before{
+                transform: rotate(71deg) translateX(-155%) translateY(-0%);  
+            }
+            .portada:hover:before{
+                cursor: pointer;
+                transform:  rotate(69deg) translateX(-100%)translateY(-22%);  
+            }
+    
+            .portada:hover:after{
+                cursor: pointer;
+                transform:  rotate(69deg) translateX(53%)translateY(-50%);  
+            }
         }
         /*termina el efecto hover de la portada*/
    
