@@ -67,7 +67,7 @@
   .navegacion a {
     font-size: 1.9rem;
     padding: 0.6rem;
-    margin: 0 auto;
+    text-align: center;
   }
   .navegacion .objeto {
     display: none;
@@ -1666,14 +1666,14 @@ header .tituloMovil {
     color: white;
     font-size: 2.5rem;
     font-weight: 700;
-    margin: 0 auto;
+    text-align: center;
     padding: 3rem 11rem;
   }
   .desplegable {
     display: block;
   }
   #menu-desplegable:checked ~ .navegacion__link {
-    left: 0%;
+    left: -2%;
   }
 }
 
