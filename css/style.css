@@ -1183,17 +1183,6 @@
         
         /* PAGINAS SUBLIMACION - ESTAMPERIA - TRANSFER - CONFECCION*/
 
-        /*imagen click*/
-        .botonesClick{
-            display: flex;
-            justify-content: center;
-        }
-        .botonesClick img{
-            width: 9%;
-            display: block;
-            margin: 9rem 7rem 4rem;
-            text-align: center;   
-        }
         /*BOTON PALETA DE COLORES-SUBLIMACION*/
         .BotonPaletaColores{
 
@@ -1253,26 +1242,6 @@
 
         }
         
-
-        @media(min-width: 1024px) and (max-width: 1400px){
-            .botonesClick img{
-                width: 10%;
-                margin: 7rem 4rem 4rem;
-            }
-        }
-        @media(min-width: 768px) and (max-width: 1024px) {
-            .botonesClick img{
-                width: 14%;
-                margin: 6rem 2rem 4rem;
-            }
-        }
-        @media(min-width: 375px) and (max-width: 767px){
-            
-            .botonesClick img{
-                width: 24%;
-                margin: 4rem 1rem 0rem;
-            }
-        }
 
         .PaginasServicios h1 {
             margin: 4rem auto;
@@ -1360,33 +1329,13 @@
             display: flex;
             justify-content: space-evenly;
         }
-        
-        .seguridad img {
-            width: 100%;
-        }
-        
-        .seguridad__imagen {
-            width: 30%;
-            margin-top: 3rem;
-        }
-        
+
         .seguridad__parrafo {
             text-align: center;
             width: 70%;
-            padding: 2rem;
+            padding: 1rem;
             line-height: 2;
             margin: 1rem auto;
             font-size: 1.8rem;
         }
-        
-        .seguridad__parrafo2 {
-            width: 90%;
-            margin: 0 auto;
-        }
-        
-        .seguridad__parrafo2 p {
-            text-align: center;
-            line-height: 2;
-            font-size: 1.8rem;
-        }
-    
+
