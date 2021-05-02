@@ -959,6 +959,12 @@
             box-shadow: 0px 0px 10px 0.3px rgba(0, 0, 0, 0.75);
             
         }
+        .formulario__fondo{
+            background-image: url(../img/fondoformulario.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            
+        }
 
         @media(min-width: 1024px) and (max-width: 1400px){
             form {
