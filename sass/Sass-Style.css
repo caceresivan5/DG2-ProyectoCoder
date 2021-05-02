@@ -61,7 +61,7 @@
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    margin: 1rem auto;
+    margin: 1rem 2rem;
     padding: 0.5rem;
   }
   .navegacion a {
@@ -1666,7 +1666,7 @@ header .tituloMovil {
     color: white;
     font-size: 2.5rem;
     font-weight: 700;
-    text-align: center;
+    margin: 0 auto;
     padding: 3rem 11rem;
   }
   .desplegable {

@@ -186,11 +186,10 @@
            .navegacion__link{
                position: absolute;
                left: -110%;
-               top: 13.4%;
-               height: 100%;
+               top: 26.4%;
                background-color: rgba(0, 0, 0, 0.93);
                border: none;
-               padding: 0rem 11rem 50rem;
+               padding: 0rem 11rem 3rem ;
                transition: 0.8s;
                z-index: 3;
            }
