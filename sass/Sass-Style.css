@@ -61,8 +61,8 @@
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    margin: 1rem 2rem;
-    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+    padding: 3rem;
   }
   .navegacion a {
     font-size: 1.9rem;
@@ -77,7 +77,7 @@
 /*MAPA*/
 /*PAGINA NOSOTROS*/
 .nosotrosInfo .nosotrosInfo__parrafo {
-  margin: 2rem auto 4rem;
+  margin: 0 auto;
   padding: 3rem;
 }
 
@@ -1515,9 +1515,9 @@ footer .listasInferior a:hover {
 
 /*TITULOS*/
 h1 {
-  text-align: center;
   color: #ff6600;
   padding: 3rem;
+  text-align: center;
 }
 
 h2 {

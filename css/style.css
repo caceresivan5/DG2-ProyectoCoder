@@ -55,6 +55,7 @@
             text-align: center;
             color: black;
             margin: 2rem auto 3rem;
+            padding: 0rem 2rem;
         }
         @media(min-width: 768px) and (max-width: 1024px) {
             h3{
@@ -189,7 +190,7 @@
                top: 26.4%;
                background-color: rgba(0, 0, 0, 0.93);
                border: none;
-               padding: 0rem 11rem 3rem ;
+               padding: 0rem 13rem 3rem ;
                transition: 0.8s;
                z-index: 3;
            }
@@ -204,7 +205,7 @@
                display: block;
            }
               #menu-desplegable:checked ~ .navegacion__link{
-               left: 1%;
+               left: 0%;
            }
             
         }
@@ -530,14 +531,14 @@
             padding: 2rem;
             border-radius: 2rem;
             background-color: var(--colorgrisClaro);
-            -webkit-box-shadow: 0px 0px 5px 0.3px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 0px 5px 0.3px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 0px 5px 0.3px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0px 0px 2px 0.3px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 2px 0.3px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 2px 0.3px rgba(0, 0, 0, 0.75);
            } 
            .servicio__imagen:hover{
-            -webkit-box-shadow: 0px 0px 10px 0.3px rgba(0, 0, 0, 0.75);
-            -moz-box-shadow: 0px 0px 10px 0.3px rgba(0, 0, 0, 0.75);
-            box-shadow: 0px 0px 10px 0.3px rgba(0, 0, 0, 0.75);
+            -webkit-box-shadow: 0px 0px 2px 0.3px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 0px 2px 0.3px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 0px 2px 0.3px rgba(0, 0, 0, 0.75);
         }
         }
         @media(min-width: 768px) and (max-width: 1024px) {
@@ -1321,6 +1322,7 @@
         
         .seguridad__titulo h1 {
             margin: 3rem auto;
+            padding: 0rem 1rem;
         }
         
         .seguridad {
